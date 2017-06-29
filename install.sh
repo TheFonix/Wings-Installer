@@ -44,15 +44,13 @@ echo "Installing the Daemon on the Wings Daemon (We are nearly there! xD)"
 npm install --only=production
 sleep 1
 
-echo""
-echo""
-echo""
-echo""
-echo"Daemon has been installed! If you saw any errors above you should no doubt check out what went wrong!"
-echo""
-echo""
+echo ""
+echo ""
+echo ""
+echo ""
+echo "Daemon has been installed! If you saw any errors above you should no doubt check out what went wrong!"
+echo ""
+echo ""
 sleep 2
 
 #echo "Attempting to Daemonize the Wings Daemon" 
-
-sleep 
