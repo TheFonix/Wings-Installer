@@ -24,11 +24,11 @@ echo "Installing other dependencies for the Wings Daemon"
 apt -y install tar unzip make gcc g++ python
 sleep 1
 
-echo "Creating the Daemon and Daemon Data Folders
+echo "Creating the Daemon and Daemon Data Folders"
 mkdir -p /srv/daemon /srv/daemon-data
 sleep 1
 
-echo " Moving to the Daemon DIrectory"
+echo "Moving to the Daemon DIrectory"
 cd /srv/daemon
 sleep 1
 
