@@ -8,7 +8,7 @@ echo " Install and configuring the Docker installer!"
 curl -sSL https://get.docker.com/ | sh
 sleep 1
 
-echo "Setting Docker to run as a system service
+echo "Setting Docker to run as a system service"
 systemctl enable docker
 sleep 1
 
@@ -36,11 +36,11 @@ echo "Downloading $DAEMONVERSION to the Daemon directory"
 curl -Lo vDAEMONVERSION.tar.gz https://github.com/Pterodactyl/Daemon/archive/v$DAEMONVERSION.tar.gz
 sleep 1
 
-echo "Stripping down $DAEMONVERSION Tar contents
+echo "Stripping down $DAEMONVERSION Tar contents"
 tar --strip-components=1 -xzvf v$DAEMONVERSION.tar.gz
 sleep 1
 
-echo "Installing the Daemon on the Wings Daemon (We are nearly there! xD)
+echo "Installing the Daemon on the Wings Daemon (We are nearly there! xD)"
 npm install --only=production
 sleep 1
 
