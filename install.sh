@@ -1,5 +1,5 @@
 #Variables:
-DAEMONVERSION="0.4.2"
+DAEMONVERSION="0.4.5"
 
 echo "Welcome! The installer will start in 2 seconds!"
 sleep 2
