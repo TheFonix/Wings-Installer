@@ -1,3 +1,4 @@
+apt install -y curl
 #Variables:
 DAEMONVERSION="0.4.5"
 
@@ -43,6 +44,10 @@ sleep 1
 echo "Installing the Daemon on the Wings Daemon (We are nearly there! xD)"
 npm install --only=production
 sleep 1
+
+echo "Creating system Service for the wings daemon"
+sleep 2
+curl https://raw.githubusercontent.com/TheFonix/Wings-Demonizer/master/daemonize.sh |sh
 
 echo ""
 echo ""
