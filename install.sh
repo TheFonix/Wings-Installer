@@ -33,12 +33,12 @@ echo "Moving to the Daemon DIrectory"
 cd /srv/daemon
 sleep 1
 
-echo "Downloading $DAEMONVERSION to the Daemon directory"
-curl -Lo vDAEMONVERSION.tar.gz https://github.com/Pterodactyl/Daemon/archive/v$DAEMONVERSION.tar.gz
+echo "Downloading 0.4.5 to the Daemon directory"
+curl -Lo vDAEMONVERSION.tar.gz https://github.com/Pterodactyl/Daemon/archive/v0.4.5.tar.gz
 sleep 1
 
-echo "Stripping down $DAEMONVERSION Tar contents"
-tar --strip-components=1 -xzvf v$DAEMONVERSION.tar.gz
+echo "Stripping down 0.4.5 Tar contents"
+tar --strip-components=1 -xzvf v0.4.5.tar.gz
 sleep 1
 
 echo "Installing the Daemon on the Wings Daemon (We are nearly there! xD)"
