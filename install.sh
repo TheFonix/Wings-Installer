@@ -34,7 +34,7 @@ cd /srv/daemon
 sleep 1
 
 echo "Downloading 0.4.5 to the Daemon directory"
-curl -Lo vDAEMONVERSION.tar.gz https://github.com/Pterodactyl/Daemon/archive/v0.4.5.tar.gz
+curl -Lo v0.4.5.tar.gz https://github.com/Pterodactyl/Daemon/archive/v0.4.5.tar.gz
 sleep 1
 
 echo "Stripping down 0.4.5 Tar contents"
